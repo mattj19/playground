@@ -14,9 +14,11 @@
     
     $cases = 100; 
 
+
     for($i = 1; $i < $cases; $i++){
         $output = '';
-
+        
+        /* This if statement will be improved to be dynamic. TBD */
         if( ($i % 3 === 0) && ($i % 5 === 0) ){
             $output = 'Fizzbuzz';
         }
